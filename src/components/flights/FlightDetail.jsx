@@ -44,6 +44,7 @@ export default class FlightDetail extends Component {
                     footer={[]}
                 >
                     <p>Duracion:{flight.flightDurationInMinutes}</p>
+                    <p>Operador de Aerolinea:{flight.operatingCarrier}</p>
                     <Timeline>
                         <Timeline.Item>
                             <p>{flight.departureAirport}</p>

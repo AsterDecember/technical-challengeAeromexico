@@ -10,11 +10,11 @@ class Home extends Component {
     render() {
         return (
             <Layout>
-                <Header>Header</Header>
+                <Header>Aeromexico Vuelos</Header>
                 <Content>
                     <FlightList />
                 </Content>
-                <Footer>Footer</Footer>
+                <Footer>Code by: Miguel Gomez</Footer>
             </Layout>
         );
     }
