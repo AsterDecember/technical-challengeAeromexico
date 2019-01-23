@@ -3,13 +3,13 @@ import {
 } from "../actions/flightActions";
 
 const aeromexicoFlights = (state = {
-    flights:[]
+    flights:{}
 }, action) => {
     switch (action.type) {
         case FETCH_FLIGHT_SAGA:
-            const  { data } = action.payload
-            console.log('reducer saga',action.payload)
-            return { ...state,data}
+            const   flights  = action.payload
+            //console.log('reducer saga',action.payload)
+            return { ...state,flights}
         default:
             return state
     }

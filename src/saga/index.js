@@ -1,6 +1,6 @@
 import { call, put, takeEvery, all } from 'redux-saga/effects';
-import {fetchFlightsSaga, getFlightsSaga,
-    FETCH_FLIGHT_SAGA, GET_FLIGHT_SAGA} from '../actions/flightActions'
+import {fetchFlightsSaga,
+     GET_FLIGHT_SAGA} from '../actions/flightActions'
 import {getCardIdAeromexico} from '../services/aeromexicoApi'
 
 function* getFlights(){

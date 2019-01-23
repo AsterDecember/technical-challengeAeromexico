@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import flights from '../flights.json'
 
 export const getCardIdAeromexico = ()=>{
 
@@ -8,6 +8,10 @@ export const getCardIdAeromexico = ()=>{
             console.log(r)
             return r
         })
-        .catch(e=>console.log(e))
+        .catch(e=>{
+            //console.log(e)
+            //console.log('vuelos:',flights) 
+            return flights
+        })
 
 }

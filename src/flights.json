@@ -1,0 +1,2187 @@
+{
+    "_links": {
+        "self": {
+            "href": "/fares/detailed?multi-city=false&city-pair-dates=MEX_MTT_2019-02-09.MTT_MEX_2019-02-16&travelers=A1_C0_I0_PH0_PC0&store=mx&coupon=&discount=&cartId=5752d1d1-862c-4ca4-bcce-b8c1673becf3&pos=WEB&fareId=0&fa-reType=&isSDC=false"
+        }
+    },
+    "meta": {
+        "class": "FareSearchResult"
+    },
+    "cityPairDateCode": "MEX_MTT_2019-02-09.MTT_MEX_2019-02-16",
+    "market": "DOMESTIC",
+    "rateModel": "1",
+    "status": "AVAILABLE",
+    "_collection": [
+        {
+            "_meta": {
+                "class": "LegCollection"
+            },
+            "_collection": [
+                {
+                    "_meta": {
+                        "class": "Leg"
+                    },
+                    "segments": {
+                        "_meta": {
+                            "class": "SegmentCollection"
+                        },
+                        "_collection": [
+                            {
+                                "_meta": {
+                                    "class": "Segment"
+                                },
+                                "segmentCode": "MEX_MTT_AM_2019-02-09_0605",
+                                "departureAirport": "MEX",
+                                "departureDateTime": "2019-02-09T06:05:00",
+                                "arrivalAirport": "MTT",
+                                "arrivalDateTime": "2019-02-09T07:25:00",
+                                "flightDurationInMinutes": 80,
+                                "layoverToNextSegmentsInMinutes": 0,
+                                "aircraftType": "E90",
+                                "operatingCarrier": "5D",
+                                "operatingFlightCode": "2528",
+                                "marketingCarrier": "AM",
+                                "marketingFlightCode": "2528",
+                                "amenitiesPremiumCabin": {
+                                    "complimentaryFeatures": [
+                                        "SD",
+                                        "SNP",
+                                        "SKP",
+                                        "XB",
+                                        "WS"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "amenitiesMainCabin": {
+                                    "complimentaryFeatures": [
+                                        "SD",
+                                        "SN",
+                                        "NONE"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "isPremierAvailable": true,
+                                "thruFlightStops": 0,
+                                "thruFlightStopsSegments": [],
+                                "bookingClass": "I",
+                                "regionCode": null
+                            }
+                        ],
+                        "legType": "NON-STOP",
+                        "totalFlightTimeInMinutes": 80,
+                        "legCode": "MEX_MTT_AM_2019-02-09_0605",
+                        "marketType": null,
+                        "regionCode": null
+                    },
+                    "fares": {
+                        "_meta": {
+                            "class": "LegFareEstimateCollection"
+                        },
+                        "_collection": [
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 1952
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_0605": {
+                                        "classOfService": "V",
+                                        "fareBasis": "RNNH6AEM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -921729395,
+                                "fareType": "COACH_EC",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2358
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_0605": {
+                                        "classOfService": "R",
+                                        "fareBasis": "RNNH0QCM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -516469260,
+                                "fareType": "COACH_CL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4011
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_0605": {
+                                        "classOfService": "Y",
+                                        "fareBasis": "QNNN0QFM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1734693459,
+                                "fareType": "COACH_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2657
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_0605": {
+                                        "classOfService": "W",
+                                        "fareBasis": "RNNH0QZM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1780348653,
+                                "fareType": "COACH_AM",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 2
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4185
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_0605": {
+                                        "classOfService": "I",
+                                        "fareBasis": "QNNN0QPM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -1938473414,
+                                "fareType": "FIRST_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_meta": {
+                        "class": "Leg"
+                    },
+                    "segments": {
+                        "_meta": {
+                            "class": "SegmentCollection"
+                        },
+                        "_collection": [
+                            {
+                                "_meta": {
+                                    "class": "Segment"
+                                },
+                                "segmentCode": "MEX_MTT_AM_2019-02-09_1205",
+                                "departureAirport": "MEX",
+                                "departureDateTime": "2019-02-09T12:05:00",
+                                "arrivalAirport": "MTT",
+                                "arrivalDateTime": "2019-02-09T13:20:00",
+                                "flightDurationInMinutes": 75,
+                                "layoverToNextSegmentsInMinutes": 0,
+                                "aircraftType": "E90",
+                                "operatingCarrier": "5D",
+                                "operatingFlightCode": "2520",
+                                "marketingCarrier": "AM",
+                                "marketingFlightCode": "2520",
+                                "amenitiesPremiumCabin": {
+                                    "complimentaryFeatures": [
+                                        "SNP",
+                                        "SKP",
+                                        "XB",
+                                        "WS",
+                                        "ADP"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "amenitiesMainCabin": {
+                                    "complimentaryFeatures": [
+                                        "AD",
+                                        "SN",
+                                        "NONE"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "isPremierAvailable": true,
+                                "thruFlightStops": 0,
+                                "thruFlightStopsSegments": [],
+                                "bookingClass": "I",
+                                "regionCode": null
+                            }
+                        ],
+                        "legType": "NON-STOP",
+                        "totalFlightTimeInMinutes": 75,
+                        "legCode": "MEX_MTT_AM_2019-02-09_1205",
+                        "marketType": null,
+                        "regionCode": null
+                    },
+                    "fares": {
+                        "_meta": {
+                            "class": "LegFareEstimateCollection"
+                        },
+                        "_collection": [
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 1952
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1205": {
+                                        "classOfService": "V",
+                                        "fareBasis": "RNNH6AEM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1185817896,
+                                "fareType": "COACH_EC",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2358
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1205": {
+                                        "classOfService": "R",
+                                        "fareBasis": "RNNH0QCM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1591078031,
+                                "fareType": "COACH_CL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4011
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1205": {
+                                        "classOfService": "Y",
+                                        "fareBasis": "QNNN0QFM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -452726546,
+                                "fareType": "COACH_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2657
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1205": {
+                                        "classOfService": "W",
+                                        "fareBasis": "RNNH0QZM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -407071352,
+                                "fareType": "COACH_AM",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 2
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4185
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1205": {
+                                        "classOfService": "I",
+                                        "fareBasis": "QNNN0QPM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 169073877,
+                                "fareType": "FIRST_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_meta": {
+                        "class": "Leg"
+                    },
+                    "segments": {
+                        "_meta": {
+                            "class": "SegmentCollection"
+                        },
+                        "_collection": [
+                            {
+                                "_meta": {
+                                    "class": "Segment"
+                                },
+                                "segmentCode": "MEX_MTT_AM_2019-02-09_1750",
+                                "departureAirport": "MEX",
+                                "departureDateTime": "2019-02-09T17:50:00",
+                                "arrivalAirport": "MTT",
+                                "arrivalDateTime": "2019-02-09T19:05:00",
+                                "flightDurationInMinutes": 75,
+                                "layoverToNextSegmentsInMinutes": 0,
+                                "aircraftType": "E70",
+                                "operatingCarrier": "5D",
+                                "operatingFlightCode": "2524",
+                                "marketingCarrier": "AM",
+                                "marketingFlightCode": "2524",
+                                "amenitiesPremiumCabin": {
+                                    "complimentaryFeatures": [
+                                        "SNP",
+                                        "SKP",
+                                        "XB",
+                                        "WS",
+                                        "ADP"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "amenitiesMainCabin": {
+                                    "complimentaryFeatures": [
+                                        "AD",
+                                        "SN",
+                                        "NONE"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "isPremierAvailable": true,
+                                "thruFlightStops": 0,
+                                "thruFlightStopsSegments": [],
+                                "bookingClass": "W",
+                                "regionCode": null
+                            }
+                        ],
+                        "legType": "NON-STOP",
+                        "totalFlightTimeInMinutes": 75,
+                        "legCode": "MEX_MTT_AM_2019-02-09_1750",
+                        "marketType": null,
+                        "regionCode": null
+                    },
+                    "fares": {
+                        "_meta": {
+                            "class": "LegFareEstimateCollection"
+                        },
+                        "_collection": [
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 1952
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1750": {
+                                        "classOfService": "V",
+                                        "fareBasis": "RNNH6AEM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -1535677024,
+                                "fareType": "COACH_EC",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2358
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1750": {
+                                        "classOfService": "R",
+                                        "fareBasis": "RNNH0QCM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -1130416889,
+                                "fareType": "COACH_CL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4011
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1750": {
+                                        "classOfService": "Y",
+                                        "fareBasis": "QNNN0QFM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1120745830,
+                                "fareType": "COACH_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2657
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MEX_MTT_AM_2019-02-09_1750": {
+                                        "classOfService": "W",
+                                        "fareBasis": "RNNH0QZM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -1727831333,
+                                "fareType": "COACH_AM",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "lowestFareId": -921729395
+        },
+        {
+            "_meta": {
+                "class": "LegCollection"
+            },
+            "_collection": [
+                {
+                    "_meta": {
+                        "class": "Leg"
+                    },
+                    "segments": {
+                        "_meta": {
+                            "class": "SegmentCollection"
+                        },
+                        "_collection": [
+                            {
+                                "_meta": {
+                                    "class": "Segment"
+                                },
+                                "segmentCode": "MTT_MEX_AM_2019-02-16_0805",
+                                "departureAirport": "MTT",
+                                "departureDateTime": "2019-02-16T08:05:00",
+                                "arrivalAirport": "MEX",
+                                "arrivalDateTime": "2019-02-16T09:30:00",
+                                "flightDurationInMinutes": 85,
+                                "layoverToNextSegmentsInMinutes": 0,
+                                "aircraftType": "E90",
+                                "operatingCarrier": "5D",
+                                "operatingFlightCode": "2529",
+                                "marketingCarrier": "AM",
+                                "marketingFlightCode": "2529",
+                                "amenitiesPremiumCabin": {
+                                    "complimentaryFeatures": [
+                                        "SD",
+                                        "SNP",
+                                        "SKP",
+                                        "XB",
+                                        "WS"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "amenitiesMainCabin": {
+                                    "complimentaryFeatures": [
+                                        "SD",
+                                        "SN",
+                                        "NONE"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "isPremierAvailable": true,
+                                "thruFlightStops": 0,
+                                "thruFlightStopsSegments": [],
+                                "bookingClass": "I",
+                                "regionCode": null
+                            }
+                        ],
+                        "legType": "NON-STOP",
+                        "totalFlightTimeInMinutes": 85,
+                        "legCode": "MTT_MEX_AM_2019-02-16_0805",
+                        "marketType": null,
+                        "regionCode": null
+                    },
+                    "fares": {
+                        "_meta": {
+                            "class": "LegFareEstimateCollection"
+                        },
+                        "_collection": [
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 1891
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_0805": {
+                                        "classOfService": "V",
+                                        "fareBasis": "RNNH6AEM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -1958375019,
+                                "fareType": "COACH_EC",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2297
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_0805": {
+                                        "classOfService": "R",
+                                        "fareBasis": "RNNH0QCM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -1553114884,
+                                "fareType": "COACH_CL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 3950
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_0805": {
+                                        "classOfService": "Y",
+                                        "fareBasis": "QNNN0QFM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 698047835,
+                                "fareType": "COACH_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2596
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_0805": {
+                                        "classOfService": "W",
+                                        "fareBasis": "RNNH0QZM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 743703029,
+                                "fareType": "COACH_AM",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 2
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4124
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_0805": {
+                                        "classOfService": "I",
+                                        "fareBasis": "QNNN0QPM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1319848258,
+                                "fareType": "FIRST_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_meta": {
+                        "class": "Leg"
+                    },
+                    "segments": {
+                        "_meta": {
+                            "class": "SegmentCollection"
+                        },
+                        "_collection": [
+                            {
+                                "_meta": {
+                                    "class": "Segment"
+                                },
+                                "segmentCode": "MTT_MEX_AM_2019-02-16_1355",
+                                "departureAirport": "MTT",
+                                "departureDateTime": "2019-02-16T13:55:00",
+                                "arrivalAirport": "MEX",
+                                "arrivalDateTime": "2019-02-16T15:20:00",
+                                "flightDurationInMinutes": 85,
+                                "layoverToNextSegmentsInMinutes": 0,
+                                "aircraftType": "E90",
+                                "operatingCarrier": "5D",
+                                "operatingFlightCode": "2521",
+                                "marketingCarrier": "AM",
+                                "marketingFlightCode": "2521",
+                                "amenitiesPremiumCabin": {
+                                    "complimentaryFeatures": [
+                                        "SNP",
+                                        "SKP",
+                                        "XB",
+                                        "WS",
+                                        "ADP"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "amenitiesMainCabin": {
+                                    "complimentaryFeatures": [
+                                        "AD",
+                                        "SN",
+                                        "NONE"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "isPremierAvailable": true,
+                                "thruFlightStops": 0,
+                                "thruFlightStopsSegments": [],
+                                "bookingClass": "I",
+                                "regionCode": null
+                            }
+                        ],
+                        "legType": "NON-STOP",
+                        "totalFlightTimeInMinutes": 85,
+                        "legCode": "MTT_MEX_AM_2019-02-16_1355",
+                        "marketType": null,
+                        "regionCode": null
+                    },
+                    "fares": {
+                        "_meta": {
+                            "class": "LegFareEstimateCollection"
+                        },
+                        "_collection": [
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 1891
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1355": {
+                                        "classOfService": "V",
+                                        "fareBasis": "RNNH6AEM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 1807630544,
+                                "fareType": "COACH_EC",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2297
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1355": {
+                                        "classOfService": "R",
+                                        "fareBasis": "RNNH0QCM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -2082076617,
+                                "fareType": "COACH_CL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 3950
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1355": {
+                                        "classOfService": "Y",
+                                        "fareBasis": "QNNN0QFM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 169086102,
+                                "fareType": "COACH_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2596
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1355": {
+                                        "classOfService": "W",
+                                        "fareBasis": "RNNH0QZM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 214741296,
+                                "fareType": "COACH_AM",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 2
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 4124
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1355": {
+                                        "classOfService": "I",
+                                        "fareBasis": "QNNN0QPM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": 790886525,
+                                "fareType": "FIRST_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_meta": {
+                        "class": "Leg"
+                    },
+                    "segments": {
+                        "_meta": {
+                            "class": "SegmentCollection"
+                        },
+                        "_collection": [
+                            {
+                                "_meta": {
+                                    "class": "Segment"
+                                },
+                                "segmentCode": "MTT_MEX_AM_2019-02-16_1945",
+                                "departureAirport": "MTT",
+                                "departureDateTime": "2019-02-16T19:45:00",
+                                "arrivalAirport": "MEX",
+                                "arrivalDateTime": "2019-02-16T21:15:00",
+                                "flightDurationInMinutes": 90,
+                                "layoverToNextSegmentsInMinutes": 0,
+                                "aircraftType": "E70",
+                                "operatingCarrier": "5D",
+                                "operatingFlightCode": "2525",
+                                "marketingCarrier": "AM",
+                                "marketingFlightCode": "2525",
+                                "amenitiesPremiumCabin": {
+                                    "complimentaryFeatures": [
+                                        "SNP",
+                                        "SKP",
+                                        "XB",
+                                        "WS",
+                                        "ADP"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "amenitiesMainCabin": {
+                                    "complimentaryFeatures": [
+                                        "AD",
+                                        "SN",
+                                        "NONE"
+                                    ],
+                                    "paidFeatures": []
+                                },
+                                "isPremierAvailable": true,
+                                "thruFlightStops": 0,
+                                "thruFlightStopsSegments": [],
+                                "bookingClass": "W",
+                                "regionCode": null
+                            }
+                        ],
+                        "legType": "NON-STOP",
+                        "totalFlightTimeInMinutes": 90,
+                        "legCode": "MTT_MEX_AM_2019-02-16_1945",
+                        "marketType": null,
+                        "regionCode": null
+                    },
+                    "fares": {
+                        "_meta": {
+                            "class": "LegFareEstimateCollection"
+                        },
+                        "_collection": [
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 1891
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1945": {
+                                        "classOfService": "V",
+                                        "fareBasis": "RNNH6AEM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -447246552,
+                                "fareType": "COACH_EC",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2297
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1945": {
+                                        "classOfService": "R",
+                                        "fareBasis": "RNNH0QCM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -41986417,
+                                "fareType": "COACH_CL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 3950
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1945": {
+                                        "classOfService": "Y",
+                                        "fareBasis": "QNNN0QFM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -2085790994,
+                                "fareType": "COACH_FL",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 9
+                            },
+                            {
+                                "saleStatus": false,
+                                "premierPartiallyUnavailable": false,
+                                "estimate": {
+                                    "_meta": {
+                                        "class": "FareTotal"
+                                    },
+                                    "currency": {
+                                        "_meta": {
+                                            "class": "CurrencyValue"
+                                        },
+                                        "currencyCode": "MXN",
+                                        "base": 0,
+                                        "equivalentBase": null,
+                                        "equivalentTotal": null,
+                                        "equivalentCurrencyCode": null,
+                                        "taxDetails": {},
+                                        "totalTax": 0,
+                                        "total": 2596
+                                    },
+                                    "points": 0,
+                                    "originalPrice": 0,
+                                    "upsellDifference": 0
+                                },
+                                "segmentCodes": {
+                                    "MTT_MEX_AM_2019-02-16_1945": {
+                                        "classOfService": "W",
+                                        "fareBasis": "RNNH0QZM"
+                                    }
+                                },
+                                "_meta": {
+                                    "class": "LegFareEstimate"
+                                },
+                                "fareId": -639400861,
+                                "fareType": "COACH_AM",
+                                "couponCode": "",
+                                "discounted": false,
+                                "seatsRemaining": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "lowestFareId": -1958375019
+        }
+    ],
+    "roundTripFareMap": {
+        "_meta": {
+            "class": "RoundTripFareMap"
+        },
+        "_collection": {}
+    },
+    "regionCode": "MX",
+    "alternateDates": {
+        "_meta": {
+            "class": "TripAlternateDateCollection"
+        },
+        "_collection": [
+            {
+                "_meta": {
+                    "class": "LegAlternateDateCollection"
+                },
+                "_collection": [
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-06",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-06_0605": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-07",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-07_0605": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-08",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-08_0605": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-09",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-09_0605": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-10",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-10_0605": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-11",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-11_1115": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MEX_MTT_2019-02-12",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1952
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MEX_MTT_AM_2019-02-12_1115": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    }
+                ]
+            },
+            {
+                "_meta": {
+                    "class": "LegAlternateDateCollection"
+                },
+                "_collection": [
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-13",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1891
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-13_0805": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-14",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1891
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-14_0805": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-15",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 2123
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-15_0805": {
+                                    "classOfService": "V",
+                                    "fareBasis": "NNNN6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-16",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1891
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-16_0805": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-17",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1891
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-17_0805": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-18",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1891
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-18_0805": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    },
+                    {
+                        "_meta": {
+                            "class": "LegAlternateDate"
+                        },
+                        "cityPairDateCode": "MTT_MEX_2019-02-19",
+                        "status": "AVAILABLE",
+                        "fare": {
+                            "saleStatus": false,
+                            "premierPartiallyUnavailable": false,
+                            "estimate": {
+                                "_meta": {
+                                    "class": "FareTotal"
+                                },
+                                "currency": {
+                                    "_meta": {
+                                        "class": "CurrencyValue"
+                                    },
+                                    "currencyCode": "MXN",
+                                    "base": 0,
+                                    "equivalentBase": null,
+                                    "equivalentTotal": null,
+                                    "equivalentCurrencyCode": null,
+                                    "taxDetails": {},
+                                    "totalTax": 0,
+                                    "total": 1891
+                                },
+                                "points": 0,
+                                "originalPrice": 0,
+                                "upsellDifference": 0
+                            },
+                            "segmentCodes": {
+                                "MTT_MEX_AM_2019-02-19_1945": {
+                                    "classOfService": "V",
+                                    "fareBasis": "RNNH6AEM"
+                                }
+                            },
+                            "_meta": {
+                                "class": "LegFareEstimate"
+                            },
+                            "fareId": 0,
+                            "fareType": "",
+                            "couponCode": "",
+                            "discounted": false,
+                            "seatsRemaining": 9
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "negativeUpsell": false,
+    "_warnings": {
+        "_meta": {
+            "class": "WarningCollection"
+        },
+        "_collection": []
+    }
+}
