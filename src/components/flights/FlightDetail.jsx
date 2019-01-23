@@ -30,10 +30,11 @@ export default class FlightDetail extends Component {
         return (
             <li>
                 <div>
-                    <p>Aeropuerto:{this.props.flight.arrivalAirport}</p>
-                    <p>Codigo de Vuelo:{this.props.flight.marketingFlightCode}</p>
+                    <p>Aeropuerto:{flight.arrivalAirport}</p>
+                    <p>Destino: {flight.departureAirport}</p>
+                    <p>Codigo de Vuelo:{flight.marketingFlightCode}</p>
                     <Button type="primary" onClick={this.showModal}>
-                        Details
+                        Detalle
                 </Button>
                 </div>
                 <Modal
